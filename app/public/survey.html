@@ -14,6 +14,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Friend Finder</title>
 </head>
 
@@ -170,8 +171,8 @@
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="results-modal" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="results-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -182,7 +183,7 @@
                     </div>
                     <div class="modal-body">
                         <h3 id="bestMatchName"></h3>
-                        <img id="bestMatchImage" src="#" alt="best match image"/>
+                        <img id="bestMatchImage" src="#" alt="best match image" />
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -266,33 +267,5 @@
     }
 </script>
 
-
-<!-- css formatting -->
-<style>
-    input {
-        margin-bottom: 15px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-weight: bold;
-    }
-
-    .submit {
-        margin-bottom: 60px;
-    }
-
-    #error {
-        color: red;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-</style>
 
 </html>
